@@ -33,3 +33,7 @@ docker tag registry.cn-hangzhou.aliyuncs.com/jetmuffin/k8s-dns-kube-dns-amd64:la
 docker pull registry.cn-hangzhou.aliyuncs.com/jetmuffin/kubernetes-dashboard-amd64:latest
 docker tag registry.cn-hangzhou.aliyuncs.com/jetmuffin/kubernetes-dashboard-amd64:latest k8s.gcr.io/kubernetes-dashboard-amd64:v1.8.1
 
+# k8s-dns-dnsmasq-nanny
+docker pull registry.cn-hangzhou.aliyuncs.com/jetmuffin/k8s-dns-dnsmasq-nanny-amd64:latest
+docker tag registry.cn-hangzhou.aliyuncs.com/jetmuffin/k8s-dns-dnsmasq-nanny-amd64:latest k8s.gcr.io/k8s-dns-dnsmasq-nanny-amd64:1.14.5
+
