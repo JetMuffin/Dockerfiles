@@ -25,7 +25,7 @@ docker pull registry.cn-hangzhou.aliyuncs.com/jetmuffin/storage-provisioner:late
 docker tag registry.cn-hangzhou.aliyuncs.com/jetmuffin/storage-provisioner:latest gcr.io/k8s-minikube/storage-provisioner:v1.8.1
 
 # k8s-dns-kube-dns
-docker pull registry.cn-hangzhou.aliyuncs.com/jetmuffin/k8s-dns-kube-dnsamd-64:latest
+docker pull registry.cn-hangzhou.aliyuncs.com/jetmuffin/k8s-dns-kube-dns-amd64:latest
 docker tag registry.cn-hangzhou.aliyuncs.com/jetmuffin/k8s-dns-kube-dns-amd64:latest k8s.gcr.io/k8s-dns-kube-dns-amd64:1.14.5
 
 # kube-dashboard
