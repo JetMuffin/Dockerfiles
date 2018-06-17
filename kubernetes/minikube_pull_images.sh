@@ -10,4 +10,9 @@ docker tag registry.cn-hangzhou.aliyuncs.com/jetmuffin/pause-amd64:latest k8s.gc
 
 # apiserver-amd64
 docker pull registry.cn-hangzhou.aliyuncs.com/jetmuffin/kube-apiserver-amd64
-docker tag registry.cn-hangzhou.aliyuncs.com/jetmuffin/kube-addon-manager k8s.gcr.io/kube-apiserver-amd64:v1.10.0
+docker tag registry.cn-hangzhou.aliyuncs.com/jetmuffin/kube-apiserver-amd64 k8s.gcr.io/kube-apiserver-amd64:v1.10.0
+
+# scheduler-amd64
+docker pull registry.cn-hangzhou.aliyuncs.com/jetmuffin/kube-scheduler-amd64
+docker tag registry.cn-hangzhou.aliyuncs.com/jetmuffin/kube-scheduler-amd64 k8s.gcr.io/kube-scheduler-amd64:v1.10.0
+
