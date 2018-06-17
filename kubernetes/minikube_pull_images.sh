@@ -37,3 +37,7 @@ docker tag registry.cn-hangzhou.aliyuncs.com/jetmuffin/kubernetes-dashboard-amd6
 docker pull registry.cn-hangzhou.aliyuncs.com/jetmuffin/k8s-dns-dnsmasq-nanny-amd64:latest
 docker tag registry.cn-hangzhou.aliyuncs.com/jetmuffin/k8s-dns-dnsmasq-nanny-amd64:latest k8s.gcr.io/k8s-dns-dnsmasq-nanny-amd64:1.14.5
 
+# echoserver
+docker pull registry.cn-hangzhou.aliyuncs.com/jetmuffin/echoserver:latest
+docker tag registry.cn-hangzhou.aliyuncs.com/jetmuffin/echoserver:latest k8s.gcr.io/echoserver:1.10
+
