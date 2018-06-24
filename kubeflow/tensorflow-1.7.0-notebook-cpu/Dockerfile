@@ -1,0 +1,2 @@
+FROM tensorflow-1.7.0-notebook-cpu:v20180419-0ad94c4e
+MAINTAINER jetmuffin <jeffchen328@gmail.com>
