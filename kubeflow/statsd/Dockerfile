@@ -1,2 +1,2 @@
-FROM quay.io/datawire/statsd:0.30.1
+FROM quay.io/datawire/statsd:0.34.0
 MAINTAINER jetmuffin <jeffchen328@gmail.com>
